@@ -1,0 +1,40 @@
+body{
+padding: 0px;
+margin: 0px;
+}
+.MainHeader {
+    display: block;
+    height: 50px;
+    background-color: rgb(6, 81,151);
+}
+.MainSection {
+    background-color:#d3d3d3 ;
+display: flex;
+height: calc(100vh - 50px);
+    
+}
+.MainAside{
+width: 30%;
+background-color: #a3a3a3;
+height: calc(100% - 20px);
+margin: 10px;
+}
+#MyMain {
+width: 70%;
+background-color: #fdfdfd;
+height: calc(100% - 20px);
+margin: 10px;
+}
+@media(max-width:600px) {
+    .MainAside{
+        width: 10%;
+        height: calc(100% - 10px);
+        margin: 5px;
+    
+        }
+        #MyMain {
+        width: 90%;
+        height: calc(100% - 10px);
+        margin: 5px;
+                }
+}
